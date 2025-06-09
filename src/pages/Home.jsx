@@ -1,27 +1,7 @@
 import { Link } from 'react-router-dom';
-import { Github, Linkedin, Mail, Download } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 function Home() {
-  const handleResumeDownload = async () => {
-    try {
-      const response = await fetch('http://localhost:5000/api/resume/download');
-      if (!response.ok) throw new Error('Failed to download resume');
-      
-      const blob = await response.blob();
-      const url = window.URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'Amith_Resume.pdf';
-      document.body.appendChild(a);
-      a.click();
-      window.URL.revokeObjectURL(url);
-      document.body.removeChild(a);
-    } catch (error) {
-      console.error('Error downloading resume:', error);
-      alert('Failed to download resume. Please try again later.');
-    }
-  };
-
   return (
     <div className="page">
       {/* Hero Section */}
@@ -43,10 +23,6 @@ function Home() {
               <a href="#contact" className="btn-secondary">
                 Get In Touch
               </a>
-              <button onClick={handleResumeDownload} className="btn-secondary">
-                <Download size={20} style={{ marginRight: '8px' }} />
-                Download Resume
-              </button>
             </div>
           </div>
           <div className="hero-visual">
