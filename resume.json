@@ -1,0 +1,100 @@
+{
+    "personalInfo": {
+      "name": "Amith Subodh",
+      "title": "Computer Science Undergraduate",
+      "email": "amithsubodh99@gmail.com",
+      "phone": "7019254307",
+      "location": "Hassan, Karnataka, India",
+      "linkedin": "https://www.linkedin.com/in/amith-subodh-1a7b7a267/",
+      "github": "https://github.com/amithsubodh"
+    },
+    "summary": "Dedicated and proactive Computer Science student with a strong academic record and hands-on experience in technical workshops and leadership roles. Seeking an entry-level position to leverage programming knowledge, problem-solving skills, and passion for innovation in impactful projects.",
+    "education": [
+      {
+        "degree": "B.E. in Computer Science and Engineering",
+        "institution": "Malnad College of Engineering, Hassan",
+        "location": "Hassan",
+        "duration": "2022 - 2026",
+        "gpa": "8.9 (up to 5th semester)",
+        "achievements": [
+          "SGPA: 9.2 (Sem 1)",
+          "SGPA: 9.3 (Sem 2)",
+          "SGPA: 9.2 (Sem 3)",
+          "SGPA: 8.67 (Sem 4)"
+        ]
+      },
+      {
+        "degree": "12th - Pre-University",
+        "institution": "Masters PU College, Hassan",
+        "location": "Hassan",
+        "duration": "2020 - 2022",
+        "gpa": "92.50%",
+        "achievements": []
+      },
+      {
+        "degree": "10th Standard",
+        "institution": "United High School, Hassan",
+        "location": "Hassan",
+        "duration": "2019 - 2020",
+        "gpa": "94.72%",
+        "achievements": []
+      }
+    ],
+    "experience": [
+      {
+        "title": "Event Organizer & Volunteer",
+        "company": "ME-RIISE Foundation",
+        "location": "Hassan",
+        "duration": "2022 - Present",
+        "responsibilities": [
+          "Organized workshops and entrepreneurial events like 'Pragyatha'",
+          "Volunteered for outreach programs under Unnat Bharat Abhiyan",
+          "Supported hands-on entrepreneurship visits under MoE-IIC"
+        ],
+        "achievements": [
+          "Promoted student innovation through Idea Harvest’24 - Aura 3.O",
+          "Assisted in Power BI & Excel workshop for MSME initiative"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "category": "Programming Languages",
+        "items": ["C", "Python", "HTML", "CSS"]
+      },
+      {
+        "category": "Frontend",
+        "items": ["React", "Figma", "Adobe Photoshop", "Adobe Illustrator", "Canva"]
+      },
+      {
+        "category": "Backend & Tools",
+        "items": ["VS Code", "GitHub"]
+      },
+      {
+        "category": "Operating Systems",
+        "items": ["Windows", "Linux", "macOS"]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Servon",
+        "description": "A user-friendly app for seamless booking of household services. Features dual login for customers and service providers and simplifies access to skilled workers.",
+        "technologies": ["React", "Firebase", "Node.js"],
+        "achievements": [
+          "Enabled cost-effective service discovery",
+          "Streamlined service-provider connectivity"
+        ]
+      },
+      {
+        "name": "CulinAIry",
+        "description": "A MERN stack-based recipe finder app that searches local DB and falls back to Spoonacular API for missing recipes.",
+        "technologies": ["MongoDB", "Express", "React", "Node.js", "Spoonacular API"],
+        "achievements": [
+          "Integrated intelligent fallback for data fetching",
+          "Improved user experience via dynamic recipe search"
+        ]
+      }
+    ],
+    "updatedAt": "2025-06-08T00:00:00.000Z"
+  }
+  
